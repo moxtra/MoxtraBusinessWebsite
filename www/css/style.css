@@ -1524,11 +1524,11 @@ a.logo.dark:hover{
  */
 
 .service-grid{
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 .service-item{
 	height: 250px;
-	margin: 20px 0 10px;
+	margin: 20px 0 0px;
 	position: relative;
 	text-align: center;
 	cursor: pointer;
