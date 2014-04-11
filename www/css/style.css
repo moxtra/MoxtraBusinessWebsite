@@ -333,7 +333,7 @@ pre{
 a.btn-spacia{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-  	color: #000;
+  	color: #fff;
   	background: #000;
 	border: 2px solid transparent;
 	font-weight: 700;
@@ -343,11 +343,11 @@ a.btn-spacia{
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	
-	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .btn-spacia:hover,
@@ -362,23 +362,40 @@ a.btn-spacia{
 }
 
 .btn-spacia.btn-small{
-  	padding: 5px 10px;
+  padding: 5px 10px;
 	font-size: 10px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-} 
+}
+
+.btn-spacia.btn-nav{
+  padding: 7px 12px;
+  font-size: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+.nav-buttons{
+  position: absolute;
+  top: 47%;
+  right: 0;
+  margin-top: -13px; /* (.nav-social-links a .fa) height/2 */
+}
+
 .btn-spacia.btn-medium{
   	padding: 11px 24px;
 	font-size: 11px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-} 
+}
 .btn-spacia.btn-large{
   	padding: 14px 40px;
 	font-size: 12px;
-} 
+}
 
 .btn-spacia.btn-glass{
   	color: rgba(255,255,255, .75);
@@ -416,14 +433,14 @@ a.btn-spacia{
 
 .btn-spacia.btn-border-x{
   	color: #fff;
-	
+
   	background: #ff812d;
 }
 
 .btn-spacia.btn-border-x:hover,
 .btn-spacia.btn-border-x:focus{
   	color:#fff;
-  	
+
   	background:#ffb065;
 }
 
@@ -478,6 +495,27 @@ a.btn-spacia{
 .btn-spacia.btn-color:focus{
   	color: #fff;
   	background: rgba(229,64,40, .9);
+}
+
+.btn-spacia.btn-color-two{
+    color: #fff;
+    background: #1abdcc;;
+}
+.btn-spacia.btn-color-two:hover,
+.btn-spacia.btn-color-two:focus{
+    color: #fff;
+    background: #64cdd7;
+}
+
+
+.btn-spacia.btn-color-one{
+    color: #fff;
+    background: #3c91ee;
+}
+.btn-spacia.btn-color-one:hover,
+.btn-spacia.btn-color-one:focus{
+    color: #fff;
+    background: #5ba1ee;
 }
 
 .btn-full{
@@ -2372,7 +2410,7 @@ a.logo.dark:hover{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 2px solid #151515;
-	
+
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -2400,6 +2438,10 @@ a.logo.dark:hover{
 	font-size: 40px;
 }
 
+.phone-number a {
+  color:#000000;
+}
+
 
 /* Other contact blocks (email, address) */
 
@@ -2425,7 +2467,7 @@ a.logo.dark:hover{
 
 /* Google maps */
 
-.google-map{	
+.google-map{
 	background: #333;
 }
 #map-canvas{
@@ -2440,7 +2482,7 @@ a.logo.dark:hover{
 }
 
 
-/* Contacts form */ 
+/* Contacts form */
 
 .map-fix{
 	margin-top: 7px;
@@ -2449,16 +2491,16 @@ a.logo.dark:hover{
 	margin-top: -30px;
 	height: 30px;
 	background: #fff;
-	
+
 	-webkit-border-top-left-radius: 3px;
 	-webkit-border-top-right-radius: 3px;
 	-moz-border-radius-topleft: 3px;
 	-moz-border-radius-topright: 3px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	
 
-	
+
+
 }
 .contact-form-wrap{
 	padding: 0 30px;
@@ -2469,6 +2511,7 @@ a.logo.dark:hover{
 	max-width: 570px;
 	margin: 0 auto;
 }
+
 
 
 
