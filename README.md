@@ -1,4 +1,4 @@
-MoxtraBusinessWebsite
+BusinessWebsite
 =====================
 
-Moxtra Business Website
+Business Website
